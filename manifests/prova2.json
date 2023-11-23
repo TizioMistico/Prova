@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://TizioMistico.github.io/Prova/manifests/prova2.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Mamma Mia!",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Fabio Lanza",
+  "sequences" : [ {
+    "@id" : "http://89b32c63-c468-4e2f-b22a-c8279e3a8885",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ff283545-6a47-4ccc-a99b-ba622d53aa4d",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2160,
+      "width" : 3840,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f21ebf6e-19da-4b8e-b203-3af0ea4ef7cf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/javier-miranda-TdmqPVDjJkc-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/javier-miranda-TdmqPVDjJkc-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2160,
+          "width" : 3840
+        },
+        "on" : "http://ff283545-6a47-4ccc-a99b-ba622d53aa4d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
