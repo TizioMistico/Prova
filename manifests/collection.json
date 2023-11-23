@@ -1,0 +1,13 @@
+{
+  "id" : "https://TizioMistico.github.io/Prova/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in TizioMistico/Prova project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://TizioMistico.github.io/Prova/manifests/prova2.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
